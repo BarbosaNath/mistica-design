@@ -127,6 +127,16 @@
       "type": "color",
       "description": "grey1"
     },
+    "backgroundContainerAlternativeOverAlternative": {
+      "value": "{palette.white}",
+      "type": "color",
+      "description": "white"
+    },
+    "backgroundContainerAlternativeOverBrand": {
+      "value": "{palette.vivoPurpleDark}",
+      "type": "color",
+      "description": "vivoPurpleDark"
+    },
     "backgroundOverlay": {
       "value": "rgba({palette.grey6}, 0.6)",
       "type": "color",
@@ -1758,6 +1768,16 @@
       "description": "darkModeGrey"
     },
     "backgroundContainerAlternative": {
+      "value": "{palette.darkModeGrey}",
+      "type": "color",
+      "description": "darkModeGrey"
+    },
+    "backgroundContainerAlternativeOverAlternative": {
+      "value": "{palette.darkModeGrey}",
+      "type": "color",
+      "description": "darkModeGrey"
+    },
+    "backgroundContainerAlternativeOverBrand": {
       "value": "{palette.darkModeGrey}",
       "type": "color",
       "description": "darkModeGrey"
@@ -3400,6 +3420,10 @@
       "chipLabel": {
         "value": "medium",
         "type": "typography"
+      },
+      "headerPretitle": {
+        "value": "regular",
+        "type": "typography"
       }
     },
     "size": {
@@ -3612,6 +3636,13 @@
           "desktop": 24
         },
         "type": "typography"
+      },
+      "headerPretitle": {
+        "value": {
+          "mobile": 16,
+          "desktop": 18
+        },
+        "type": "typography"
       }
     },
     "lineHeight": {
@@ -3822,6 +3853,13 @@
         "value": {
           "mobile": 24,
           "desktop": 28
+        },
+        "type": "typography"
+      },
+      "headerPretitle": {
+        "value": {
+          "mobile": 24,
+          "desktop": 24
         },
         "type": "typography"
       }

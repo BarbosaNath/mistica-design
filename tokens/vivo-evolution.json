@@ -127,6 +127,16 @@
       "type": "color",
       "description": "vivoNeutral25"
     },
+    "backgroundContainerAlternativeOverAlternative": {
+      "value": "{palette.vivoNeutral150}",
+      "type": "color",
+      "description": "vivoNeutral150"
+    },
+    "backgroundContainerAlternativeOverBrand": {
+      "value": "{palette.vivoPurple800}",
+      "type": "color",
+      "description": "vivoPurple800"
+    },
     "backgroundOverlay": {
       "value": "rgba({palette.vivoNeutral975}, 0.6)",
       "type": "color",
@@ -1761,6 +1771,16 @@
       "value": "{palette.vivoNeutral900}",
       "type": "color",
       "description": "vivoNeutral900"
+    },
+    "backgroundContainerAlternativeOverAlternative": {
+      "value": "{palette.vivoNeutral150}",
+      "type": "color",
+      "description": "vivoNeutral150"
+    },
+    "backgroundContainerAlternativeOverBrand": {
+      "value": "{palette.vivoPurple800}",
+      "type": "color",
+      "description": "vivoPurple800"
     },
     "backgroundOverlay": {
       "value": "rgba({palette.vivoNeutral900}, 0.8)",
@@ -3400,6 +3420,10 @@
       "chipLabel": {
         "value": "medium",
         "type": "typography"
+      },
+      "headerPretitle": {
+        "value": "regular",
+        "type": "typography"
       }
     },
     "size": {
@@ -3610,6 +3634,13 @@
         "value": {
           "mobile": 18,
           "desktop": 24
+        },
+        "type": "typography"
+      },
+      "headerPretitle": {
+        "value": {
+          "mobile": 14,
+          "desktop": 16
         },
         "type": "typography"
       }
@@ -3824,6 +3855,13 @@
           "desktop": 28
         },
         "type": "typography"
+      },
+      "headerPretitle": {
+        "value": {
+          "mobile": 20,
+          "desktop": 24
+        },
+        "type": "typography"
       }
     }
   },
@@ -3992,7 +4030,7 @@
     },
     "responsiveLayoutMargin": {
       "value": {
-        "mobile": 8,
+        "mobile": 16,
         "desktop": 48
       },
       "type": "spacing"
