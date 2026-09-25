@@ -127,6 +127,16 @@
       "type": "color",
       "description": "grey100"
     },
+    "backgroundContainerAlternativeOverAlternative": {
+      "value": "{palette.white}",
+      "type": "color",
+      "description": "white"
+    },
+    "backgroundContainerAlternativeOverBrand": {
+      "value": "{palette.blue800}",
+      "type": "color",
+      "description": "blue800"
+    },
     "backgroundOverlay": {
       "value": "rgba({palette.movistarBlack}, 0.6)",
       "type": "color",
@@ -1758,6 +1768,16 @@
       "description": "darkModeGrey"
     },
     "backgroundContainerAlternative": {
+      "value": "{palette.darkModeGrey}",
+      "type": "color",
+      "description": "darkModeGrey"
+    },
+    "backgroundContainerAlternativeOverAlternative": {
+      "value": "{palette.darkModeGrey}",
+      "type": "color",
+      "description": "darkModeGrey"
+    },
+    "backgroundContainerAlternativeOverBrand": {
       "value": "{palette.darkModeGrey}",
       "type": "color",
       "description": "darkModeGrey"
@@ -3400,6 +3420,14 @@
       "chipLabel": {
         "value": "medium",
         "type": "typography"
+      },
+      "chipLabelSmall": {
+        "value": "medium",
+        "type": "typography"
+      },
+      "headerPretitle": {
+        "value": "regular",
+        "type": "typography"
       }
     },
     "size": {
@@ -3578,6 +3606,13 @@
         },
         "type": "typography"
       },
+      "chipLabelSmall": {
+        "value": {
+          "mobile": 14,
+          "desktop": 18
+        },
+        "type": "typography"
+      },
       "inputLabel": {
         "value": {
           "mobile": 12,
@@ -3610,6 +3645,13 @@
         "value": {
           "mobile": 24,
           "desktop": 28
+        },
+        "type": "typography"
+      },
+      "headerPretitle": {
+        "value": {
+          "mobile": 16,
+          "desktop": 18
         },
         "type": "typography"
       }
@@ -3790,6 +3832,13 @@
         },
         "type": "typography"
       },
+      "chipLabelSmall": {
+        "value": {
+          "mobile": 20,
+          "desktop": 24
+        },
+        "type": "typography"
+      },
       "inputLabel": {
         "value": {
           "mobile": 16,
@@ -3822,6 +3871,13 @@
         "value": {
           "mobile": 28,
           "desktop": 32
+        },
+        "type": "typography"
+      },
+      "headerPretitle": {
+        "value": {
+          "mobile": 22,
+          "desktop": 24
         },
         "type": "typography"
       }
